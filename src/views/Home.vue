@@ -1,15 +1,9 @@
 <template>
   <div class="home">
-    <lbz-list
-      v-for="(value, name, index) in MENU"
-      :key="name"
-      dense
-      :subheader="name"
-    >
-      <lbz-list-item v-for="(item, index) of value" :key="index">{{
-        item
-      }}</lbz-list-item>
-      <lbz-divider v-if="index !== 5" />
+    <lbz-list v-for="(value, name) in MENU" :key="name" :subheader="name">
+      <lbz-list-item v-for="(item, index) of value" :key="index"
+        >{{ index + 1 }}. {{ item }}</lbz-list-item
+      >
     </lbz-list>
   </div>
 </template>
@@ -99,12 +93,15 @@
 
 <style lang="less">
   .home .lbz-list {
+    padding-top: 0;
+    padding-bottom: 0;
+
     &:last-child {
-      padding-bottom: 32px;
+      padding-bottom: 34px;
     }
 
-    .lbz-divider {
-      margin-top: 8px;
+    &__subheader {
+      background-color: var(--lbz-theme-outline-on-surface);
     }
   }
 </style>

@@ -1,16 +1,16 @@
 {
   "name": "asadorwok",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Avenida Pio XII 37-39, 46015 Valencia, Spain",
   "author": "LAN Bizhong <bizhong_lan@163.com> (https://lanbizhong.com/)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint --ext .ts,.js,.vue ."
+    "lint": "vue-cli-service lint --fix --ext .ts,.js,.vue ."
   },
   "dependencies": {
-    "@lbzui/vue": "^0.7.2",
+    "@lbzui/vue": "^0.7.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
