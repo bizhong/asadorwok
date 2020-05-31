@@ -2,10 +2,10 @@
 
 ![QR code](/QR-code.png)
 
->- Cuisine: Japanese, Chinese, Seafood, Sushi
->- Location: Avenida Pio XII 37-39, 46015 Valencia, Spain
->- Phone: +34 963 29 68 93
->- Website: [http://asadorwok.es/](http://asadorwok.es/)
+> Cuisine: Japanese, Chinese, Seafood, Sushi<br>
+> Location: Avenida Pio XII 37-39, 46015 Valencia, Spain<br>
+> Phone: +34 963 29 68 93<br>
+> Website: [http://asadorwok.es/](http://asadorwok.es/)
 
 ## LICENSE
 
